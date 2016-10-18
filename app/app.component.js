@@ -15,7 +15,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>App Angular</h1>'
+            template: "<h1>App Angular</h1>\n  <pie-chart></pie-chart>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 @Component({
-  selector: 'app',
-  template: '<h1>App Angular</h1>'
+  selector: 'my-app',
+  template: `<h1>App Angular</h1>
+  <pie-chart></pie-chart>`
 })
 export class AppComponent { }

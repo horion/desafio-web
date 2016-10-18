@@ -12,13 +12,16 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var ng2_charts_1 = require('ng2-charts/ng2-charts');
+var doughnut_component_1 = require('./doughnut.component');
+var pie_chart_1 = require('./pie-chart');
+var http_1 = require('@angular/http');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, ng2_charts_1.ChartsModule],
-            declarations: [app_component_1.AppComponent],
+            imports: [platform_browser_1.BrowserModule, ng2_charts_1.ChartsModule, http_1.HttpModule],
+            declarations: [app_component_1.AppComponent, doughnut_component_1.DoughnutChartComponent, pie_chart_1.PieChartComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
